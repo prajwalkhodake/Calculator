@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(156, 207, 207);
+}
+#Calculator{
+    background-color: rgb(24, 22, 22);
+    border-radius: 5px;
+    max-width: 500px;
+    max-height: 620px;
+    overflow: hidden;
+}
+
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 3rem;
+    text-align: left;
+    border: none;
+    background-color: rgb(66, 64, 64);
+    color: white;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+    padding: 20px;
+}
+button{
+    width:90px;
+    height: 90px;
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(113, 110, 110);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:active{
+    background-color: rgb(182, 179, 179);
+}
+.opt_button{
+    background-color: orange;
+}
